@@ -1,0 +1,21 @@
+* Các thành viên trong nhóm :
+- Lâm Thị Thùy Dung  22CNTTC
+- Nguyễn Bảo Phúc    22CNTTC
+
+
+* Phân công công việc :
+- Lâm Thị Thùy Dung: Thiết kế giao diện + hỗ trợ database.
+- Nguyễn Bảo Phúc  : Thiết kế, kết nối database, back-end.
+
+
+
+* Quy trình chạy source code :
+B1: tải và cài đặt môi trường nodejs v22 (https://nodejs.org/en).
+B2: tiếp tục tải môi trường mongodb (https://www.mongodb.com/try/download/shell).
+B3: mở file source code bằng visual.
+B4: cd đến thư mục server.
+B5: npm i để cài đặt tất cả các package và thư viện mà dự án cần.
+B6: npm start để chạy phần server.
+B7: Go live file index.html của thư mục register (trong client) để dùng.
+
+
