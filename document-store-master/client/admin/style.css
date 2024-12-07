@@ -1,0 +1,194 @@
+/* Reset các thuộc tính cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Nút chung */
+button {
+    padding: 12px 24px;
+    background-color: #007bff; /* Màu nền mặc định */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 15px; /* Khoảng cách giữa các nút */
+}
+
+/* Nút "Danh sách đơn hàng" */
+.order-list-btn {
+    background-color: #28a745; /* Màu xanh lá cây cho danh sách đơn hàng */
+    margin-left: 10px;
+}
+
+.order-list-btn:hover {
+    background-color: #218838; /* Màu khi hover */
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+}
+
+.order-list-btn:active {
+    background-color: #1e7e34; /* Màu khi nhấn */
+    transform: scale(1); /* Đưa về kích thước bình thường khi nhấn */
+}
+
+/* Nút "Đăng xuất" */
+.logout-btn {
+    background-color: #dc3545; /* Màu đỏ cho nút đăng xuất */
+}
+
+.logout-btn:hover {
+    background-color: #a71d2a; /* Màu khi hover */
+    transform: scale(1.05); /* Hiệu ứng phóng to khi hover */
+}
+
+.logout-btn:active {
+    background-color: #8a1f1a; /* Màu khi nhấn */
+    transform: scale(1); /* Đưa về kích thước bình thường khi nhấn */
+}
+
+/* Cải tiến responsive */
+@media screen and (max-width: 768px) {
+    button {
+        width: 100%; /* Khi trên thiết bị di động, các nút sẽ rộng 100% */
+        margin: 10px 0;
+    }
+}
+
+/* Cấu hình chung cho body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb; /* Màu nền nhẹ nhàng */
+    margin: 0;
+    padding: 40px 0; /* Tăng khoảng cách ở trên và dưới */
+    color: #333;
+}
+
+/* Tiêu đề chính */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Container chính */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Hiệu ứng nâng lên khi hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Nhãn của form */
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Input và Textarea */
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input[type="file"] {
+    padding: 6px 10px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007bff; /* Màu khi focus vào trường nhập liệu */
+    outline: none;
+}
+
+
+
+/* Bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #555;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Nút xóa */
+.delete-btn {
+    padding: 6px 12px;
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: #a71d2a;
+}
+
+/* Cải tiến responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+
+    table th,
+    table td {
+        font-size: 14px;
+    }
+}

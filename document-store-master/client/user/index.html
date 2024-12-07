@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách Tài liệu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <!-- Nút Đăng xuất -->
+        <button class="logout-btn" onclick="window.location.href='../login/';">Đăng xuất</button>
+    </div>
+    <div class="container">
+        <h1>Danh Sách Tài Liệu</h1>
+        <div class="search-container">
+            <input type="text" id="ip_search" placeholder="Tìm kiếm tài liệu..." class="search-input">
+        </div>
+        <table id="documentsTable">
+            <thead>
+                <tr>
+                    <th>Tiêu đề</th>
+                    <th>Mô tả</th>
+                    <th>Giá</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dữ liệu tài liệu sẽ được thêm vào đây -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

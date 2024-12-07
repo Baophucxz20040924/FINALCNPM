@@ -1,0 +1,112 @@
+/* Reset các thuộc tính cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cấu hình chung cho body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fb; /* Màu nền nhẹ nhàng */
+    color: #333;
+    padding: 40px 0;
+}
+
+/* Phần header với các nút */
+.header {
+    display: flex;
+    justify-content: space-between; /* Căn giữa giữa các nút, nút trái sẽ căn trái, nút phải căn phải */
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+/* Nút Trang chủ và Danh sách đơn hàng */
+.home-btn, .order-list-btn {
+    padding: 12px 24px;
+    background-color: #007bff; /* Màu nền mặc định */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Nút Trang chủ khi hover */
+.home-btn:hover, .order-list-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Phóng to khi hover */
+}
+
+/* Nút Trang chủ khi nhấn */
+.home-btn:active, .order-list-btn:active {
+    background-color: #003f8e;
+    transform: scale(1); /* Đưa về kích thước bình thường khi nhấn */
+}
+
+/* Container chính */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Bảng thống kê */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #555;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Cải tiến responsive */
+@media screen and (max-width: 768px) {
+    /* Các nút sẽ rộng 100% trên thiết bị di động */
+    .home-btn, .order-list-btn {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Giảm kích thước chữ trên thiết bị di động */
+    h1 {
+        font-size: 2rem;
+    }
+
+    table th, table td {
+        font-size: 14px;
+    }
+}

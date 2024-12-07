@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Admin - Quản lý tài liệu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <!-- Nút Danh sách đơn hàng -->
+        <button class="order-list-btn" onclick="window.location.href='./order';">Danh sách đơn hàng</button>
+
+        <!-- Nút Đăng xuất -->
+        <button class="logout-btn" onclick="window.location.href='../login/';">Đăng xuất</button>
+    </div><br>
+    <div class="container">
+        <h1>Quản lý Tài liệu</h1>
+        <div>
+            <h2>Thêm tài liệu mới</h2>
+            <div class="form-group">
+                <label for="title">Tiêu đề</label>
+                <input type="text" id="title" placeholder="Nhập tiêu đề tài liệu">
+            </div>
+            <div class="form-group">
+                <label for="description">Mô tả</label>
+                <textarea id="description" rows="3" placeholder="Nhập mô tả tài liệu"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="price">Giá (VNĐ)</label>
+                <input type="number" id="price" placeholder="Nhập giá tài liệu">
+            </div>
+            <div class="form-group">
+                <label for="file">Tệp tài liệu</label>
+                <input type="file" id="file">
+            </div>
+            <div class="form-group">
+                <label for="img">Hình ảnh (tối đa 5)</label>
+                <input type="file" id="img" multiple>
+            </div>
+            
+            <button class="submit-btn" id="create-btn">Tạo tài liệu</button>
+        </div>
+
+        <div>
+            <h2>Danh sách tài liệu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tiêu đề</th>
+                        <th>Mô tả</th>
+                        <th>Giá (VNĐ)</th>
+                        <th>Hành động</th>
+                    </tr>
+                </thead>
+                <tbody id="document-list">
+                    <!-- Nội dung sẽ được tạo động bằng JS -->
+                </tbody>
+            </table>
+        </div>
+    </div> 
+</body>
+<script src="./script.js"></script>
+</html>
