@@ -1,0 +1,28 @@
+Tiêu đề: Hệ thống tích hợp tài liệu hỗ trợ.
+
+* Mô tả: Là một người dùng, tôi muốn có thể truy cập tài liệu hỗ trợ trực tuyến để tự giải quyết các vấn đề liên quan đến sản phẩm hoặc dịch vụ mà không cần liên hệ trực tiếp với bộ phận hỗ trợ. Hệ thống sẽ cho phép tôi tìm kiếm, xem và tải xuống tài liệu một cách nhanh chóng và dễ dàng.
+
+* Tiêu chí chấp nhận:
+1.Đăng nhập hệ thống:
+Người dùng có thể đăng nhập vào tài khoản cá nhân để truy cập tài liệu hỗ trợ.
+
+2.Tìm kiếm tài liệu:
+Người dùng có thể nhập từ khóa hoặc chọn danh mục từ giao diện để tìm kiếm tài liệu hỗ trợ.
+Hệ thống sẽ trả về danh sách tài liệu phù hợp với từ khóa hoặc danh mục đã chọn.
+
+3.Xem tài liệu:
+Hệ thống hiển thị tài liệu trong giao diện người dùng cho phép người dùng xem trực tiếp.
+Tài liệu phải có định dạng dễ đọc (PDF, DOCX, video...).
+
+4.Tải tài liệu:
+Người dùng có thể nhấp vào nút "Tải xuống" để lưu tài liệu về máy tính của mình.
+Tài liệu tải về phải đầy đủ và không bị lỗi.
+
+5.Phản hồi từ người dùng:
+Hệ thống cho phép người dùng gửi phản hồi về tài liệu để cải thiện nội dung và chất lượng tài liệu.
+
+* Tài liệu đính kèm:
+-Mockup giao diện người dùng: Giao diện hiển thị tài liệu hỗ trợ và chức năng tìm kiếm.
+-Tài liệu tích hợp: Các tài liệu hướng dẫn chi tiết về cách sử dụng hệ thống.
+-Video hướng dẫn: Video mô tả cách tìm kiếm và tải tài liệu hỗ trợ
+
